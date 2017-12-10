@@ -1,0 +1,32 @@
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.rounded-player {
+  border-radius: 4px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.video-posted-at {
+  font-size: 12px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}

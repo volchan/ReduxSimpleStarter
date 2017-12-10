@@ -9,6 +9,7 @@ class VideoList extends Component {
           return (
             <VideoListItem
               key={video.etag}
+              onVideoSelect={this.props.onVideoSelect}
               video={video}
             />
           );
